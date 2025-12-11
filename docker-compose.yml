@@ -1,0 +1,12 @@
+name: my-site
+
+services:
+  server:
+    image: hugomods/hugo:exts
+    command: sh -c "cd sharanresume && hugo server --bind 0.0.0.0"
+    volumes:
+      - ${PWD}:/src
+      - ./hugo_cache:/tmp/hugo_cache
+    ports:
+      - 1313:1313
+

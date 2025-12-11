@@ -1,0 +1,3 @@
+[submodule "sharanresume/themes/resume-a4"]
+	path = sharanresume/themes/resume-a4
+	url = https://gitlab.com/mertbakir/resume-a4.git
